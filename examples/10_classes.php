@@ -1,6 +1,11 @@
 <?php
 
 class Foo {
+
+    function __construct() {
+        print "In BaseClass constructor\n";
+    }
+
     public $aMemberVar = 'aMemberVar Member Variable';
     public $aFuncName = 'aMemberFunc';
 
