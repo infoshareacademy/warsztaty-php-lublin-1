@@ -1,6 +1,6 @@
 <?php
   $formData = $_POST;
-  mail($formData['email'], $formData['title'], 'To jest wiadomość e-mail');
+  mail($formData['email'], $formData['title'], 'E-mail message content');
 
 ?>
 
